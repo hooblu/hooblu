@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-secondary text-white;
+}
+
+a {
+  @apply text-primary hover:text-accent transition-colors;
+}
+
+button {
+  @apply rounded-lg font-semibold transition-all;
+}
